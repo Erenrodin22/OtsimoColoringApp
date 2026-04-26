@@ -581,7 +581,25 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: DOTWEEN;DOTWEEN_EPO
+    EmbeddedLinux: DOTWEEN;DOTWEEN_EPO
+    GameCoreScarlett: DOTWEEN;DOTWEEN_EPO
+    GameCoreXboxOne: DOTWEEN;DOTWEEN_EPO
+    Kepler: DOTWEEN;DOTWEEN_EPO
+    LinuxHeadlessSimulation: DOTWEEN;DOTWEEN_EPO
+    Nintendo Switch: DOTWEEN;DOTWEEN_EPO
+    Nintendo Switch 2: DOTWEEN;DOTWEEN_EPO
+    PS4: DOTWEEN;DOTWEEN_EPO
+    PS5: DOTWEEN;DOTWEEN_EPO
+    QNX: DOTWEEN;DOTWEEN_EPO
+    Standalone: DOTWEEN;DOTWEEN_EPO
+    VisionOS: DOTWEEN;DOTWEEN_EPO
+    WebGL: DOTWEEN;DOTWEEN_EPO
+    Windows Store Apps: DOTWEEN;DOTWEEN_EPO
+    XboxOne: DOTWEEN;DOTWEEN_EPO
+    iPhone: DOTWEEN;DOTWEEN_EPO
+    tvOS: DOTWEEN;DOTWEEN_EPO
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -678,14 +696,14 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 
+  cloudProjectId: cf58db49-e0a7-480a-99d6-83838a80ac41
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: OtsimoColoringApp
+  organizationId: erenrodin0
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
